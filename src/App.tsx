@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import portraitImg from './assets/portrait.jpg';
+import portraitImg from './assets/portraitBase64';
 import {
   Mail,
   Phone,
