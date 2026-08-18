@@ -31,70 +31,70 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
-    image: '/images/work/phuc-son-tu.png',
+    image: './images/work/phuc-son-tu.png',
     title: 'Kỹ thuật ghi hình: "Phúc Sơn Tự" - Phóng sự về chùa Phúc Sơn - Cao Xá - Bắc Ninh',
     client: 'Phóng sự truyền hình',
     slug: 'https://drive.google.com/file/d/1Gg9RbEoQeMKZ_DTjhqF83yMFhfRxRC5F/view?usp=share_link',
     category: 'broadcast',
   },
   {
-    image: '/images/work/y-dang-hop-long-dan.png',
+    image: './images/work/y-dang-hop-long-dan.png',
     title: 'Phóng sự: "Sáp nhập xã - Ý Đảng hợp lòng dân"',
     client: 'Phóng sự điều tra xã hội',
     slug: 'https://drive.google.com/file/d/1jt8o-JIF_HBoFdCRCAaegdjZdwCujI_A/view?usp=share_link',
     category: 'broadcast',
   },
   {
-    image: '/images/work/quang-cao-tuyen-sinh-hvpnvn.png',
+    image: './images/work/quang-cao-tuyen-sinh-hvpnvn.png',
     title: 'Quảng cáo tuyển sinh khoa Truyền thông ĐPT HVPNVN',
     client: 'Quảng cáo tuyển sinh',
     slug: 'https://drive.google.com/file/d/13KX7iYzh2I4F6O9wAlgvQTC0uEI3Gy0E/view?usp=share_link',
     category: 'commercial',
   },
   {
-    image: '/images/work/mv-chang-con-nhung-ngay-ay.png',
+    image: './images/work/mv-chang-con-nhung-ngay-ay.png',
     title: 'MV "Chẳng còn những ngày ấy"',
     client: 'Music Video học đường',
     slug: 'https://drive.google.com/file/d/1Eho9hox7gFjTvD0Td9aBkmqS83lcOqPt/view?usp=share_link',
     category: 'shortfilm',
   },
   {
-    image: '/images/work/tiktok-ao-xua-pho-moi.png',
+    image: './images/work/tiktok-ao-xua-pho-moi.png',
     title: 'Dự án xây kênh Tiktok về Việt Phục "Áo xưa phố mới"',
     client: 'Dự án xây kênh TikTok',
     slug: 'https://www.tiktok.com/@moiphoxuaao?is_from_webapp=1&sender_device=pc',
     category: 'tiktok',
   },
   {
-    image: '/images/work/van-hoa-an-mac-giang-duong.png',
+    image: './images/work/van-hoa-an-mac-giang-duong.png',
     title: 'Phóng sự: "Văn hoá ăn mặc giảng đường"',
     client: 'Bản tin thời sự học đường',
     slug: 'https://drive.google.com/file/d/1TxrD_e9GEZuojQQShgHOuEBZNQr7dcPq/view?usp=share_link',
     category: 'broadcast',
   },
   {
-    image: '/images/work/quang-cao-cao-sao-vang.png',
+    image: './images/work/quang-cao-cao-sao-vang.png',
     title: 'Quảng cáo kỹ xảo "Cao sao vàng"',
     client: 'Quảng cáo VFX',
     slug: 'https://drive.google.com/file/d/1a4St9hHVf2pvftSbgO8rfCh4i7zdVbK2/view?usp=share_link',
     category: 'commercial',
   },
   {
-    image: '/images/work/tiktok-nhap-vai-van-hoc.png',
+    image: './images/work/tiktok-nhap-vai-van-hoc.png',
     title: 'Kênh TikTok giáo dục nhập vai văn học',
     client: 'Kênh @chuyen.hoc.van (Giải Nhì STTTNNĐ)',
     slug: 'https://www.tiktok.com/@chuyen.hoc.van?is_from_webapp=1&sender_device=pc',
     category: 'tiktok',
   },
   {
-    image: '/images/work/duong-tro-ve.png',
+    image: './images/work/duong-tro-ve.png',
     title: 'Phim ngắn tiếng Anh: Đường trở về',
     client: 'Giải Nhất Tiểu phẩm cấp tỉnh',
     slug: 'https://youtu.be/hY036Er_HRI?si=QplmLOLEFU4NVJO_',
     category: 'shortfilm',
   },
   {
-    image: '/images/work/kem-bo-ho.png',
+    image: './images/work/kem-bo-ho.png',
     title: 'TVC: Kem bờ hồ - Hương vị vượt thời gian',
     client: 'Quảng cáo hoài niệm',
     slug: 'https://drive.google.com/file/d/12Rt8kw0NVNP0Atd2yVkoInBYxWLVNQtL/view?usp=sharing',
@@ -105,37 +105,37 @@ const PROJECTS: Project[] = [
 const SKILLS = [
   {
     name: 'Biên kịch & Kịch bản',
-    icon: '/images/home/education-skill/bien-kich-kich-ban.png',
+    icon: './images/home/education-skill/bien-kich-kich-ban.png',
     rating: 5,
     desc: 'Lên ý tưởng, cấu trúc kịch bản truyền hình, video ngắn viral',
   },
   {
     name: 'CapCut & Dựng Mobile',
-    icon: '/images/home/education-skill/capcut.png',
+    icon: './images/home/education-skill/capcut.png',
     rating: 5,
     desc: 'Biên tập video tốc độ cao, bắt trend thuật toán TikTok / Reels',
   },
   {
     name: 'Adobe Photoshop',
-    icon: '/images/home/education-skill/adobe-photoshop.jpg',
+    icon: './images/home/education-skill/adobe-photoshop.jpg',
     rating: 4,
     desc: 'Xử lý hình ảnh, thiết kế thumbnail, poster truyền thông',
   },
   {
     name: 'Adobe Illustrator',
-    icon: '/images/home/education-skill/illustrator.png',
+    icon: './images/home/education-skill/illustrator.png',
     rating: 4,
     desc: 'Thiết kế vector, ấn phẩm đồ họa nhận diện thương hiệu',
   },
   {
     name: 'AI (Gemini / ChatGPT)',
-    icon: '/images/home/education-skill/ai-gemini-chatgpt.webp',
+    icon: './images/home/education-skill/ai-gemini-chatgpt.webp',
     rating: 5,
     desc: 'Ứng dụng AI sáng tạo nội dung, nghiên cứu & tối ưu hóa quy trình',
   },
   {
     name: 'Quay phim & Dẫn hiện trường (MC)',
-    icon: '/images/home/education-skill/quay-phim-mc.jpg',
+    icon: './images/home/education-skill/quay-phim-mc.jpg',
     rating: 4,
     desc: 'Tác nghiệp góc máy hiện trường, dẫn chương trình & phỏng vấn',
   },
@@ -227,7 +227,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           <a id="nav-brand-logo" href="#" className="flex items-center gap-3 group">
             <img
-              src="/images/logo/logo.svg"
+              src="./images/logo/logo.svg"
               alt="Nguyễn Hồng Loan Logo"
               className="w-11 h-11 transition-transform group-hover:scale-105"
               onError={(e) => {
@@ -358,7 +358,7 @@ export default function App() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white border border-gray-200 p-2">
                   <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-gray-100 relative group">
                     <img
-                      src="/images/portrait.jpg"
+                      src="./images/portrait.jpg"
                       alt="Nguyễn Hồng Loan - Chân dung"
                       className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
                     />
@@ -402,7 +402,7 @@ export default function App() {
             <div className="lg:col-span-4 hidden lg:block">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-300 bg-white">
                 <img
-                  src="/images/portrait.jpg"
+                  src="./images/portrait.jpg"
                   alt="Nguyễn Hồng Loan Giới thiệu"
                   className="w-full h-[460px] object-cover"
                 />
@@ -638,7 +638,7 @@ export default function App() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                     onError={(e) => {
                       // Fallback visual banner
-                      e.currentTarget.src = '/images/portrait.jpg';
+                      e.currentTarget.src = './images/portrait.jpg';
                     }}
                   />
                   {/* Category Badge */}
@@ -834,7 +834,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-white/10">
             <div className="flex items-center gap-3">
               <img
-                src="/images/logo/logo.svg"
+                src="./images/logo/logo.svg"
                 alt="Logo"
                 className="w-10 h-10 invert opacity-90"
               />
@@ -869,7 +869,7 @@ export default function App() {
                 alt={selectedProject.title}
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  e.currentTarget.src = '/images/portrait.jpg';
+                  e.currentTarget.src = './images/portrait.jpg';
                 }}
               />
               <button

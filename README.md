@@ -80,6 +80,21 @@ graph TD
 
 ---
 
+## 🚀 Hướng Dẫn Triển Khai Lên GitHub Pages (Tự Động)
+
+Dự án đã được tích hợp sẵn **GitHub Actions Workflow** tự động build và deploy lên GitHub Pages mỗi khi bạn push code lên GitHub:
+
+### Cách kích hoạt trên GitHub:
+1. Vào repository của bạn trên GitHub (ví dụ: `hongloanvwa.github.io` hoặc `Nguyen_Hong_loan`).
+2. Nhấn vào tab **Settings** (Cài đặt) ở thanh menu trên cùng của repository.
+3. Ở menu bên trái, chọn **Pages**.
+4. Tại phần **Build and deployment**:
+   - Ở mục **Source**, chọn **GitHub Actions** (thay vì *Deploy from a branch*).
+5. Sau khi chọn, GitHub sẽ tự động chạy quy trình build và deploy trang web của bạn lên link `https://hongloanvwa.github.io/`.
+6. Chờ khoảng 1–2 phút, tải lại trang là website sẽ hiển thị đầy đủ giao diện, hình ảnh và video!
+
+---
+
 ## 💻 Hướng Dẫn Chạy Dự Án Chế Độ Local (Development)
 
 1. **Cài đặt phụ thuộc (Dependencies)**:
