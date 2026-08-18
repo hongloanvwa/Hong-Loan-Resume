@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --color-primary: #fe4300;
+    --color-secondary: #868686;
+    --color-softGray: #f4f4f4;
+    --color-mistGray: #d7dcdd;
+    --color-dark: #121212;
+  }
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wave {
+  transform-origin: 70% 70%;
+  animation: wave-animation 2.5s infinite;
+  display: inline-block;
+}
+
+@media print {
+  body {
+    color: #000 !important;
+    background: #fff !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

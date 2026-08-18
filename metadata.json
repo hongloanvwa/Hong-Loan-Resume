@@ -1,0 +1,8 @@
+{
+  "name": "Remix Nguyen_Hong_loan",
+  "description": "Imported from GitHub: wane-bs/Nguyen_Hong_loan",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

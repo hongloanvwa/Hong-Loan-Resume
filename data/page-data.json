@@ -1,0 +1,117 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "hongloanvwa@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:hongloanvwa@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+84 369 608 516",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+84369608516"
+      },
+      {
+        "type": "website",
+        "label": "@nghongloan",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.tiktok.com/@nghongloan"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "youtube",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://www.youtube.com/@onlyelse"
+      },
+      {
+        "platform": "tiktok",
+        "icon": "/images/icon/dribble-icon.svg",
+        "link": "https://www.tiktok.com/@nghongloan"
+      },
+      {
+        "platform": "tiktok-edu",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.tiktok.com/@chuyen.hoc.van"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Sinh viên Truyền thông Đa phương tiện - 2023 - Now",
+        "description": "Học viện Phụ nữ Việt Nam. GPA: 3.42 / 4.0. Tư duy logic chặt chẽ, năng lực phân tích dữ liệu chuyên sâu và kỹ năng kiểm chứng thông tin khắt khe."
+      },
+      {
+        "title": "Giải Nhất NCKH Sinh viên cấp Học viện - 2025",
+        "description": "Dự án Nghiên cứu Khoa học Sinh viên. Khẳng định tư duy học thuật và khả năng xử lý số liệu - yếu tố nền tảng cho công tác biên tập báo chí truyền hình."
+      },
+      {
+        "title": "IELTS B2 - Tiếng Anh",
+        "description": "Đọc hiểu, biên dịch tài liệu và khai thác tin tức trực tiếp từ các nguồn báo chí quốc tế độc lập."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Biên kịch & Kịch bản",
+        "icon": "/images/home/education-skill/bien-kich-kich-ban.png",
+        "rating": 5
+      },
+      {
+        "name": "CapCut",
+        "icon": "/images/home/education-skill/capcut.png",
+        "rating": 5
+      },
+      {
+        "name": "Adobe Photoshop",
+        "icon": "/images/home/education-skill/adobe-photoshop.jpg",
+        "rating": 4
+      },
+      {
+        "name": "Illustrator",
+        "icon": "/images/home/education-skill/illustrator.png",
+        "rating": 4
+      },
+      {
+        "name": "AI (Gemini/ChatGPT)",
+        "icon": "/images/home/education-skill/ai-gemini-chatgpt.webp",
+        "rating": 5
+      },
+      {
+        "name": "Quay phim & MC",
+        "icon": "/images/home/education-skill/quay-phim-mc.jpg",
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "TikTok",
+        "href": "https://www.tiktok.com/@nghongloan"
+      },
+      {
+        "title": "YouTube",
+        "href": "https://www.youtube.com/@onlyelse"
+      },
+      {
+        "title": "TikTok (Cổ phục)",
+        "href": "https://www.tiktok.com/@moiphoxuaao"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "hongloanvwa@gmail.com",
+        "link": "mailto:hongloanvwa@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+84 369 608 516",
+        "link": "tel:+84369608516"
+      }
+    ]
+  }
+}
