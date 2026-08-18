@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import portraitImg from './assets/portrait.jpg';
 import {
   Mail,
   Phone,
@@ -358,7 +359,7 @@ export default function App() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-white border border-gray-200 p-2">
                   <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-gray-100 relative group">
                     <img
-                      src="./images/portrait.jpg"
+                      src={portraitImg}
                       alt="Nguyễn Hồng Loan - Chân dung"
                       className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500"
                     />
@@ -402,7 +403,7 @@ export default function App() {
             <div className="lg:col-span-4 hidden lg:block">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-300 bg-white">
                 <img
-                  src="./images/portrait.jpg"
+                  src={portraitImg}
                   alt="Nguyễn Hồng Loan Giới thiệu"
                   className="w-full h-[460px] object-cover"
                 />
@@ -638,7 +639,7 @@ export default function App() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                     onError={(e) => {
                       // Fallback visual banner
-                      e.currentTarget.src = './images/portrait.jpg';
+                      e.currentTarget.src = portraitImg;
                     }}
                   />
                   {/* Category Badge */}
@@ -869,7 +870,7 @@ export default function App() {
                 alt={selectedProject.title}
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  e.currentTarget.src = './images/portrait.jpg';
+                  e.currentTarget.src = portraitImg;
                 }}
               />
               <button
